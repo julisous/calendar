@@ -1,0 +1,63 @@
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 1rem 1rem;
+    background-color: rgb(10,26,92);
+    color: white;
+    box-shadow: 0 2px 2px 2px white;
+  }
+  
+  .brand-name {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+  .navigation-menu {
+    margin-left: auto;
+  }
+
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+  }
+  .navigation-menu li {
+   
+    margin: 0 1rem;
+
+  }
+  .navigation-menu li a {
+  
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: aliceblue;
+  }
+
+  .navigation-menu li :hover {
+
+    color: #2642af;;
+  }
+  .hamburger {
+
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #070a18;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  .hamburger:hover {
+    background-color: #2642af;
+  }
